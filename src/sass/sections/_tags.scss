@@ -27,7 +27,7 @@
 
 /* Storleksvariationer */
 .size-sm {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 5px 12px;
 }
 
@@ -240,6 +240,102 @@
 .badge.mosaic {
   background-color: #6d6875;
 }
+.badge.express {
+  background-color: #444; // Express är minimalistiskt svart/grå
+  color: #fff;
+}
 
+.badge.jwt {
+  background-color: #f0ad4e; // Gul-orange, ofta förknippad med säkerhet
+  color: #000;
+}
+
+.badge.rest {
+  background-color: #17a2b8; // Bootstrap's info-blå – API vibes
+  color: #fff;
+}
+
+.badge.mern {
+  background-color: #3f3f3f; // Neutral stack-tag
+  color: #fff;
+}
+
+.badge.validation {
+  background-color: #28a745; // Bootstrap’s success green
+  color: #fff;
+}
+
+.badge.context {
+  background-color: #6f42c1; // Lila som React Context / Redux-färgton
+  color: #fff;
+}
+.badge.behavior {
+  background-color: #9b59b6; // lila, smart/strategiskt AI
+  color: #fff;
+}
+
+.badge.navmesh {
+  background-color: #2980b9; // blå, navigation och pathfinding
+  color: #fff;
+}
+
+.badge.blueprint {
+  background-color: #1abc9c; // turkos, visuellt och tekniskt
+  color: #000;
+}
+
+.badge.animation {
+  background-color: #e67e22; // orange, rörelse, UI/UX
+  color: #fff;
+}
+
+.badge.optimization {
+  background-color: #2ecc71; // grön, för prestandafokus
+  color: #fff;
+}
+.badge.blackboard {
+  background-color: #34495e; // mörkblå-grå, intern datastruktur
+  color: #fff;
+}
+
+.badge.eqs {
+  background-color: #8e44ad; // lila, spatial AI
+  color: #fff;
+}
+
+.badge.state {
+  background-color: #d35400; // orange, bra för tillståndsstyrning
+  color: #fff;
+}
+
+.badge.debug {
+  background-color: #c0392b; // röd, debugging/visualisering
+  color: #fff;
+}
+
+.badge.system {
+  background-color: #2c3e50; // neutral, systemarkitektur
+  color: #fff;
+}
+
+.badge.motion {
+  background-color: #e17055; // orange, fysisk rörelse
+  color: #fff;
+}
+
+.badge.hci {
+  background-color: #00b894; // grön-turkos, interaktion
+  color: #fff;
+}
+
+.badge.uiux {
+  background-color: #fd79a8; // rosa, design
+  color: #000;
+}
+
+.badge.analytics {
+  background-color: #0984e3; // blå, dataanalys
+  color: #fff;
+}
 
 
