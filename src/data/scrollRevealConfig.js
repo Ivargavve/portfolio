@@ -51,6 +51,13 @@ export const targetElements = [
     },
   },
   {
+    element: ".tag-cluster",
+    animation: {
+      delay: 800,
+      origin: window.innerWidth > 768 ? "bottom" : "bottom",
+    },
+  },
+  {
     element: ".project-wrapper__image",
     animation: {
       delay: 1000,

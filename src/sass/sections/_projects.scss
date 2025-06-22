@@ -49,6 +49,31 @@
       }
     }
 
+    &__tags {
+      // Fade in-animation, som på text/bild
+      @extend .load-hidden;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @include respond(phone) {
+        margin-bottom: 2.5rem !important;
+      }
+
+      @include respond(tab-land) {
+        margin-bottom: 4.8rem;
+      }
+
+      .tag-cluster {
+        justify-content: flex-end;
+
+        @include respond(phone) {
+          justify-content: center;
+        }
+      }
+    }
+
     &__image {
       width: 90%;
       margin: 0 auto;

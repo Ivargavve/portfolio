@@ -22,6 +22,8 @@
     <meta property="og:title" content="Ivar Gavelin | Portfolio" />
     <meta property="og:description" content="MSc in Media Technology, with a focus on AI, urban simulation, and technical creativity." />
     <meta property="og:url" content="https://ivargavelin.com" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/v4-shims.min.css" />
 
     <link rel="shortcut icon" type="image/png" href="assets/LogoSmallAC.png" />
 
@@ -118,49 +120,66 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
-          <!-- Notice: each .row is a project -->
+         <!-- Notice: each .row is a project -->
           <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Master's Thesis - Procedural Generation of Urban Environments Using GIS Data</h3>
-                <div>
-                  <p class="mb-4">
-                    Simulated Swedish cities by combining GIS data and procedural rules in CityEngine and Unreal. 
-                    Balanced realism and performance by creating a scalable system with modular CGA and custom assets.
-                    The code is not public due to collaboration with FOI, but the report is available.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://liu.diva-portal.org/smash/record.jsf?dswid=2723&pid=diva2%3A1972274&c=1&searchType=SIMPLE&language=sv&query=Gavelin&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=all"
-                >
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">
+                Master's Thesis - Procedural Generation of Urban Environments Using GIS Data
+              </h3>
+              <p class="mb-4">
+                Simulated Swedish cities by combining GIS data and procedural rules in CityEngine and Unreal. 
+                Balanced realism and performance by creating a scalable system with modular CGA and custom assets.
+                The code is not public due to collaboration with FOI, but the report is available.
+              </p>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn cta-btn--hero"
+                href="https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1972274"
+              >
                 Read Report
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://liu.diva-portal.org/smash/record.jsf?dswid=2723&pid=diva2%3A1972274&c=1&searchType=SIMPLE&language=sv&query=Gavelin&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=all" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/exjobb.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
+
+          <div class="col-lg-2 col-sm-12 d-flex justify-content-center align-items-center">
+            <div class="tag-cluster load-hidden">
+                <span class="badge python size-sm"><i class="fab fa-python"></i> Python</span>
+                <span class="badge unreal size-md"><i class="fab fa-unity"></i> Unreal Engine</span>
+                <span class="badge cityengine size-lg"><i class="fas fa-city"></i> CityEngine</span>
+                <span class="badge gis size-md">GIS</span>
+                <span class="badge cga size-sm">CGA</span>
+                <span class="badge simulation size-md">Simulation</span>
+                <span class="badge urban size-sm">Urban Design</span>
+                <span class="badge procedural size-lg">Procedural Generation</span>
+                <span class="badge latex size-sm"><i class="fas fa-file-alt"></i> LaTeX</span>
+                <span class="badge assets3d size-sm">3D Assets</span>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://liu.diva-portal.org/smash/record.jsf?pid=diva2%3A1972274" target="_blank">
+                <div
+                  data-tilt
+                  data-tilt-max="4"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt"
+                >
+                  <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/exjobb.jpg"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
 
           <!-- Notice: each .row is a project -->
           <div class="row">
@@ -193,7 +212,20 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-2 col-sm-12 d-flex justify-content-center align-items-center">
+              <div class="tag-cluster load-hidden">
+                <span class="badge web size-md"><i class="fas fa-code"></i> Web Dev</span>
+                <span class="badge js size-sm"><i class="fab fa-js"></i> JavaScript</span>
+                <span class="badge adobe size-md"><i class="fab fa-adobe"></i> Adobe Suite</span>
+                <span class="badge html size-sm"><i class="fab fa-html5"></i> HTML</span>
+                <span class="badge css size-sm"><i class="fab fa-css3-alt"></i> CSS</span>
+                <span class="badge media size-md"><i class="fas fa-photo-video"></i> Media Production</span>
+                <span class="badge business size-sm"><i class="fas fa-briefcase"></i> Client Work</span>
+                <span class="badge brand size-sm"><i class="fas fa-bullhorn"></i> Branding</span>
+                <span class="badge wordpress size-sm"><i class="fab fa-wordpress"></i> WordPress</span>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="https://svartso.se/" target="_blank">
                   <div
@@ -245,7 +277,20 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+
+            <div class="col-lg-2 col-sm-12 d-flex justify-content-center align-items-center">
+              <div class="tag-cluster load-hidden">
+                <span class="badge unreal size-lg"><i class="fab fa-unity"></i> Unreal Engine 5.4</span>
+                <span class="badge cpp size-md"><i class="fas fa-code"></i> C++</span>
+                <span class="badge ai size-sm"><i class="fas fa-robot"></i> Game AI</span>
+                <span class="badge design size-sm"><i class="fas fa-cubes"></i> Level Design</span>
+                <span class="badge gameplay size-md"><i class="fas fa-gamepad"></i> Gameplay</span>
+                <span class="badge shooter size-sm"><i class="fas fa-crosshairs"></i> Shooter</span>
+                <span class="badge survival size-sm"><i class="fas fa-heartbeat"></i> Survival</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="https://youtu.be/N2BEchWAgNA" target="_blank">
                   <div
@@ -296,7 +341,18 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-2 col-sm-12 d-flex justify-content-center align-items-center">
+              <div class="tag-cluster load-hidden">
+                <span class="badge ai size-lg"><i class="fas fa-robot"></i> Enemy AI</span>
+                <span class="badge cpp size-md"><i class="fas fa-code"></i> C++</span>
+                <span class="badge unreal size-md"><i class="fab fa-unity"></i> Unreal Engine</span>
+                <span class="badge behavior size-sm"><i class="fas fa-brain"></i> Behavior Trees</span>
+                <span class="badge gameplay size-sm"><i class="fas fa-gamepad"></i> Gameplay Logic</span>
+                <span class="badge perception size-sm"><i class="fas fa-eye"></i> Perception</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="https://drive.google.com/file/d/1-ej3x25u1ea2VfzaUk68pbm0a5NbGQAK/view?usp=sharing" target="_blank">
                   <div
@@ -348,7 +404,19 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-2 col-sm-12 d-flex justify-content-center align-items-center">
+              <div class="tag-cluster load-hidden">
+                <span class="badge react size-md"><i class="fab fa-react"></i> React</span>
+                <span class="badge node size-md"><i class="fab fa-node-js"></i> Node.js</span>
+                <span class="badge mongo size-sm"><i class="fas fa-database"></i> MongoDB</span>
+                <span class="badge fullstack size-sm"><i class="fas fa-layer-group"></i> Full-Stack</span>
+                <span class="badge auth size-sm"><i class="fas fa-user-lock"></i> Auth</span>
+                <span class="badge responsive size-sm"><i class="fas fa-mobile-alt"></i> Responsive</span>
+                <span class="badge ui size-sm"><i class="fas fa-paint-brush"></i> UI Design</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="https://youtu.be/HSQO53aPlyk" target="_blank">
                   <div
@@ -393,7 +461,18 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-2 col-sm-12 d-flex justify-content-center align-items-center">
+              <div class="tag-cluster load-hidden">
+                <span class="badge unity size-md"><i class="fab fa-unity"></i> Unity</span>
+                <span class="badge csharp size-sm"><i class="fas fa-code"></i> C#</span>
+                <span class="badge health size-sm"><i class="fas fa-heartbeat"></i> Health Tech</span>
+                <span class="badge gamification size-sm"><i class="fas fa-gamepad"></i> Gamification</span>
+                <span class="badge pulse size-sm"><i class="fas fa-heart"></i> Pulse Tracking</span>
+                <span class="badge research size-sm"><i class="fas fa-search"></i> Research</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="https://drive.google.com/file/d/1su1FNjDsCdwHpuEEI_7uCg5hu85Lt5C4/view?usp=sharing" target="_blank">
                   <div
@@ -436,7 +515,19 @@
                 </a>
               </div>
             </div>
-            <div class="col-lg-8 col-sm-12">
+            <div class="col-lg-2 col-sm-12 d-flex justify-content-center align-items-center">
+              <div class="tag-cluster load-hidden">
+                <span class="badge python size-md"><i class="fab fa-python"></i> Python</span>
+                <span class="badge imageproc size-sm"><i class="fas fa-image"></i> Image Processing</span>
+                <span class="badge analysis size-sm"><i class="fas fa-chart-line"></i> Analysis</span>
+                <span class="badge snr size-sm">SNR</span>
+                <span class="badge ssim size-sm">SSIM</span>
+                <span class="badge scielab size-sm">S-CIELAB</span>
+                <span class="badge mosaic size-sm"><i class="fas fa-th"></i> Mosaic</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="https://drive.google.com/file/d/1gUwfOQN5DKChqXwTfyPs04ZPc8HYk42Y/view?usp=sharing" target="_blank">
                   <div
