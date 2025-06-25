@@ -337,5 +337,14 @@
   background-color: #0984e3; // blå, dataanalys
   color: #fff;
 }
+.alvalabs {
+  color: #ffffff; 
+}
+.alvalabs:hover {
+  color: #ffffff;
+  // transform move the text a little right
+  transform: translateX(2px);
+  transition: transform 0.2s ease;
+}
 
 
