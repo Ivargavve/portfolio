@@ -128,8 +128,55 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
+          <!-- Search and Filter UI -->
+          <div class="project-controls">
+            <div class="search-filter-wrapper">
+              <div class="search-bar">
+                <input type="text" id="projectSearch" placeholder="Search projects..." />
+                <i class="fas fa-search"></i>
+              </div>
+
+              <div class="filter-controls">
+                <div class="sort-dropdown">
+                  <label for="sortProjects">Sort by:</label>
+                  <select id="sortProjects">
+                    <option value="newest">Newest First</option>
+                    <option value="oldest">Oldest First</option>
+                    <option value="scale-desc">Largest Scale</option>
+                    <option value="scale-asc">Smallest Scale</option>
+                  </select>
+                </div>
+
+                <div class="tech-filter">
+                  <button id="filterToggle" class="filter-btn">
+                    <i class="fas fa-filter"></i> Filter by Tech
+                  </button>
+                  <div id="techFilterPanel" class="tech-filter-panel hidden">
+                    <div class="filter-options">
+                      <label><input type="checkbox" value="python" class="tech-checkbox"> Python</label>
+                      <label><input type="checkbox" value="react" class="tech-checkbox"> React</label>
+                      <label><input type="checkbox" value="angular" class="tech-checkbox"> Angular</label>
+                      <label><input type="checkbox" value="dotnet" class="tech-checkbox"> .NET</label>
+                      <label><input type="checkbox" value="unreal" class="tech-checkbox"> Unreal Engine</label>
+                      <label><input type="checkbox" value="unity" class="tech-checkbox"> Unity</label>
+                      <label><input type="checkbox" value="cpp" class="tech-checkbox"> C++</label>
+                      <label><input type="checkbox" value="csharp" class="tech-checkbox"> C#</label>
+                      <label><input type="checkbox" value="javascript" class="tech-checkbox"> JavaScript</label>
+                      <label><input type="checkbox" value="typescript" class="tech-checkbox"> TypeScript</label>
+                      <label><input type="checkbox" value="fastapi" class="tech-checkbox"> FastAPI</label>
+                      <label><input type="checkbox" value="node" class="tech-checkbox"> Node.js</label>
+                    </div>
+                    <button id="clearFilters" class="clear-filters-btn">Clear All</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projects Container -->
+          <div id="projectsContainer">
          <!-- Notice: each .row is a project -->
-          <div class="row">
+          <div class="row project-item" data-timestamp="2025-09-20" data-tags="python,fastapi,react,websocket,fullstack" data-scale="small" data-hours="50">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text load-hidden">
               <h3 class="project-wrapper__text-title">ChatStream – Real-time Chat Visualization Platform</h3>
@@ -180,13 +227,14 @@
                   />
                 </div>
               </a>
+              <div class="project-timestamp">September 2025</div>
             </div>
           </div>
         </div>
         <!-- /END Project -->
 
          <!-- Notice: each .row is a project -->
-          <div class="row">
+          <div class="row project-item" data-timestamp="2025-01-20" data-tags="python,unreal,cityengine,gis,procedural" data-scale="major" data-hours="960">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text load-hidden">
               <h3 class="project-wrapper__text-title">
@@ -240,13 +288,14 @@
                   />
                 </div>
               </a>
+              <div class="project-timestamp">January 2025</div>
             </div>
           </div>
         </div>
         <!-- /END Project -->
 
          <!-- Notice: each .row is a project -->
-        <div class="row">
+        <div class="row project-item" data-timestamp="2025-08-15" data-tags="angular,dotnet,typescript,bootstrap,fullstack" data-scale="substantial" data-hours="200">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text load-hidden">
               <div>
@@ -307,13 +356,14 @@
                   />
                 </div>
               </a>
+              <div class="project-timestamp">August 2025</div>
             </div>
           </div>
         </div>
         <!-- /END Project -->
 
         <!-- Notice: each .row is a project -->
-          <div class="row">
+          <div class="row project-item" data-timestamp="2025-08-10" data-tags="python,tkinter,pyautogui,automation" data-scale="small" data-hours="60">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">CellBot – Python-based Click Automation</h3>
@@ -366,13 +416,14 @@
                     />
                   </div>
                 </a>
+                <div class="project-timestamp">August 2025</div>
               </div>
             </div>
           </div>
           <!-- /END Project -->
 
         <!-- Notice: each .row is a project -->
-        <div class="row">
+        <div class="row project-item" data-timestamp="2025-07-12" data-tags="angular,dotnet,typescript,bootstrap,fullstack" data-scale="moderate" data-hours="90">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text load-hidden">
               <h3 class="project-wrapper__text-title">Booksy – Full-Stack Angular & .NET Web App</h3>
@@ -431,6 +482,7 @@
                   />
                 </div>
               </a>
+              <div class="project-timestamp">July 2025</div>
             </div>
           </div>
         </div>
@@ -438,7 +490,7 @@
 
 
           <!-- Notice: each .row is a project -->
-          <div class="row">
+          <div class="row project-item" data-timestamp="2024-08-24" data-tags="javascript,html,css,wordpress" data-scale="substantial" data-hours="300">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">My Company - Aerocapture Productions</h3>
@@ -498,13 +550,14 @@
                     />
                   </div>
                 </a>
+                <div class="project-timestamp">August 2024</div>
               </div>
             </div>
           </div>
           <!-- /END Project -->
 
           <!-- Notice: each .row is a project -->
-          <div class="row">
+          <div class="row project-item" data-timestamp="2024-08-17" data-tags="unreal,cpp,ai" data-scale="substantial" data-hours="250">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Survival, Arena, Shooter - Arena of Oblivion</h3>
@@ -569,13 +622,14 @@
                     />
                   </div>
                 </a>
+                <div class="project-timestamp">August 2024</div>
               </div>
             </div>
           </div>
           <!-- /END Project -->
 
           <!-- Notice: each .row is a project -->
-          <div class="row">
+          <div class="row project-item" data-timestamp="2024-09-02" data-tags="unreal,cpp,ai" data-scale="moderate" data-hours="100">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Advanced enemy AI - Part of Arena of Oblivion</h3>
@@ -636,13 +690,14 @@
                     />
                   </div>
                 </a>
+                <div class="project-timestamp">September 2024</div>
               </div>
             </div>
           </div>
           <!-- /END Project -->
 
           <!-- Notice: each .row is a project -->
-          <div class="row">
+          <div class="row project-item" data-timestamp="2024-03-17" data-tags="react,node,mongodb,fullstack" data-scale="moderate" data-hours="120">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Advanced Course Review Website - Reviewed</h3>
@@ -706,13 +761,14 @@
                     />
                   </div>
                 </a>
+                <div class="project-timestamp">March 2024</div>
               </div>
             </div>
           </div>
           <!-- /END Project -->
 
           <!-- Notice: each .row is a project -->
-          <div class="row">
+          <div class="row project-item" data-timestamp="2023-02-10" data-tags="unity,csharp" data-scale="major" data-hours="640">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Bachelor's Thesis - Training Using Virtual Reality</h3>
@@ -765,12 +821,13 @@
                     />
                   </div>
                 </a>
+                <div class="project-timestamp">February 2023</div>
               </div>
             </div>
           </div>
           <!-- /END Project -->
           <!-- Notice: each .row is a project -->
-          <div class="row">
+          <div class="row project-item" data-timestamp="2022-11-05" data-tags="python" data-scale="small" data-hours="40">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Image Reproduction and Analysis - Working with Small Scale Images</h3>
@@ -820,10 +877,22 @@
                     />
                   </div>
                 </a>
+                <div class="project-timestamp">November 2022</div>
               </div>
             </div>
           </div>
           <!-- /END Project -->
+
+          </div>
+          <!-- /END Projects Container -->
+
+          <!-- Pagination -->
+          <div class="pagination-wrapper">
+            <div id="pagination" class="pagination"></div>
+            <div class="pagination-info">
+              <span id="pageInfo"></span>
+            </div>
+          </div>
 
         </div>
       </div>
