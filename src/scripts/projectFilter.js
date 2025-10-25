@@ -23,6 +23,12 @@ function initializeProjects() {
   const projectElements = document.querySelectorAll('.project-item');
   allProjects = Array.from(projectElements);
   filteredProjects = [...allProjects];
+
+  // Update project count in title
+  const projectCountEl = document.getElementById('projectCount');
+  if (projectCountEl) {
+    projectCountEl.textContent = allProjects.length;
+  }
 }
 
 function setupEventListeners() {
