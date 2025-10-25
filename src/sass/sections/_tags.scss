@@ -405,3 +405,28 @@
   background-color: #ffb703; /* gul-orange */
   color: #000;
 }
+
+.badge.fastapi {
+  background-color: #009688; /* FastAPI teal/green */
+  color: #fff;
+}
+
+.badge.websocket {
+  background-color: #4a90e2; /* WebSocket blue */
+  color: #fff;
+}
+
+.badge.realtime {
+  background-color: #ff6b6b; /* Real-time red */
+  color: #fff;
+}
+
+.badge.visualization {
+  background-color: #9c27b0; /* Visualization purple */
+  color: #fff;
+}
+
+.badge.api {
+  background-color: #17a2b8; /* API info-blue */
+  color: #fff;
+}
