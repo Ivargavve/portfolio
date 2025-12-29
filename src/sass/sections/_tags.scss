@@ -455,3 +455,28 @@
   background-color: #ea580c; /* Extension orange */
   color: #fff;
 }
+
+.badge.svelte {
+  background-color: #ff3e00; /* Svelte orange */
+  color: #fff;
+}
+
+.badge.rust {
+  background-color: #dea584; /* Rust tan/orange */
+  color: #000;
+}
+
+.badge.voice {
+  background-color: #8b5cf6; /* Voice purple */
+  color: #fff;
+}
+
+.badge.monitor {
+  background-color: #06b6d4; /* Monitor cyan */
+  color: #fff;
+}
+
+.badge.retro {
+  background-color: #22c55e; /* Retro green (terminal) */
+  color: #000;
+}
