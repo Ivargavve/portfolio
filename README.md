@@ -44,7 +44,7 @@ npm run build
 
 - **ChatStream** - Real-time chat visualization platform (FastAPI + React)
 - **Master's Thesis** - Procedural urban generation with GIS data (Unreal + CityEngine)
-- **AutoBattler** - Full-stack browser RPG (Angular + .NET)
+- **Idleveil** - Full-stack browser RPG (Angular + .NET)
 - **CellBot** - Advanced Python automation tool
 - **Arena of Oblivion** - Survival shooter with advanced AI (Unreal Engine + C++)
 
